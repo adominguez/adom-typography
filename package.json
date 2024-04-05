@@ -1,0 +1,38 @@
+{
+  "name": "adom-typography",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "A typography component for Astro and React to use in your projects.",
+  "exports": {
+    ".": "./index.ts",
+    "./astro": "./AdomTypographyAstro.astro",
+    "./react": "./AdomTypographyReact.tsx"
+  },
+  "files": [
+    "index.ts",
+    "AdomTypographyAstro.astro",
+    "AdomTypographyReact.tsx"
+  ],
+  "keywords": [
+    "astro",
+    "withastro",
+    "astro-component",
+    "React-component",
+    "typography",
+    "ui"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "astro": "^4.5.14"
+  },
+  "peerDependencies": {
+    "astro": "^4.0.0"
+  },
+  "homepage": "https://github.com/adominguez/adom-typography",
+  "dependencies": {
+    "@astrojs/check": "^0.5.10",
+    "@astrojs/preact": "^3.1.2",
+    "preact": "^10.20.1",
+    "typescript": "^5.4.3"
+  }
+}
