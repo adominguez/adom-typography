@@ -39,7 +39,7 @@ You can follow the [Oficial Astro react guide](https://docs.astro.build/en/guide
 ```javascript
 import { AdomTypographyAstro, AdomTypographyReact } from 'adom-typography';
 
-<AdomTypographyAstro type='secondary' text='Soy un componente de Astro' variant='h1' responsive />
-<AdomTypographyReact type="primary" text='Soy un componente de react' variant='h2' responsive />
+<AdomTypographyAstro type='secondary' text="I'm an Astro component" variant='h1' responsive />
+<AdomTypographyReact type="primary" text="I'm an React component" variant='h2' responsive />
 
 ```
